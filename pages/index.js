@@ -1,11 +1,11 @@
-import Layout from "../components/Layout";
+import LayoutComponent from "../components/Layout";
 
 export default class extends React.Component {
   render() {
     return (
-      <Layout title="Dev&Coffee">
+      <LayoutComponent title="Dev&Coffee">
         <h1>Dev&Coffee</h1>
-      </Layout>
+      </LayoutComponent>
     );
   }
 }
